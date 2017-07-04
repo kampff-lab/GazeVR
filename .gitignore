@@ -1,4 +1,5 @@
 
 *.old
+*.nupkg
 Bonsai/Packages
 Bonsai/Bonsai.exe.settings
