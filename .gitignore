@@ -1,5 +1,9 @@
 
 *.old
+*.suo
 *.nupkg
+packages
+GazeVR/bin
+GazeVR/obj
 Bonsai/Packages
 Bonsai/Bonsai.exe.settings
