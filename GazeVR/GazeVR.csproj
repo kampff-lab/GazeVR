@@ -65,7 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GroupCollisionsUntil.cs" />
+    <Compile Include="NumericAggregateConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomGenerator.cs" />
+    <Compile Include="RandomPosition.cs" />
+    <Compile Include="TimestampedEvent.cs" />
+    <Compile Include="TimestampEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GazeVR.nuspec" />
