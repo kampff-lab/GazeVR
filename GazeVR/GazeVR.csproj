@@ -64,6 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RandomBoolean.cs" />
     <Compile Include="GroupCollisionsUntil.cs" />
     <Compile Include="NumericAggregateConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
