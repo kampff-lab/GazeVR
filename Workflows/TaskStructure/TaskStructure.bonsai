@@ -183,15 +183,15 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="q4:SetTransform">
                       <q4:Position>
-                        <q4:X>0.42917203903198242</q4:X>
-                        <q4:Y>0.87894046306610107</q4:Y>
-                        <q4:Z>0.0998467206954956</q4:Z>
+                        <q4:X>0.078799605369567871</q4:X>
+                        <q4:Y>1.2471338510513306</q4:Y>
+                        <q4:Z>-0.10288536548614502</q4:Z>
                       </q4:Position>
                       <q4:Orientation>
-                        <q4:W>0.94908970594406128</q4:W>
-                        <q4:X>0.068852081894874573</q4:X>
-                        <q4:Y>-0.30406454205513</q4:Y>
-                        <q4:Z>-0.045087199658155441</q4:Z>
+                        <q4:W>0.88575553894042969</q4:W>
+                        <q4:X>-0.1129714623093605</q4:X>
+                        <q4:Y>-0.44701960682868958</q4:Y>
+                        <q4:Z>-0.053367681801319122</q4:Z>
                       </q4:Orientation>
                     </Combinator>
                   </Expression>
@@ -581,11 +581,6 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                         </Edge>
                       </Edges>
                     </Workflow>
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="IntProperty">
-                      <Value>1</Value>
-                    </Combinator>
                   </Expression>
                   <Expression xsi:type="MulticastSubject">
                     <Name>Events</Name>
@@ -1038,15 +1033,15 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                               <Expression xsi:type="Combinator">
                                 <Combinator xsi:type="q4:SetTransform">
                                   <q4:Position>
-                                    <q4:X>0.88740604875081042</q4:X>
-                                    <q4:Y>0.95882586360550537</q4:Y>
-                                    <q4:Z>-0.52915911032971952</q4:Z>
+                                    <q4:X>0.787711735990833</q4:X>
+                                    <q4:Y>1.023208232277752</q4:Y>
+                                    <q4:Z>-0.62608355586647946</q4:Z>
                                   </q4:Position>
                                   <q4:Orientation>
-                                    <q4:W>0.80664443969726563</q4:W>
-                                    <q4:X>0.10877613723278046</q4:X>
-                                    <q4:Y>-0.578566312789917</q4:Y>
-                                    <q4:Z>0.052474189549684525</q4:Z>
+                                    <q4:W>0.67528069019317627</q4:W>
+                                    <q4:X>0.032398588955402374</q4:X>
+                                    <q4:Y>-0.73684662580490112</q4:Y>
+                                    <q4:Z>-0.0018205977976322174</q4:Z>
                                   </q4:Orientation>
                                 </Combinator>
                               </Expression>
@@ -1459,58 +1454,58 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   </Edge>
                   <Edge>
                     <From>10</From>
-                    <To>40</To>
+                    <To>39</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>10</From>
-                    <To>33</To>
+                    <To>32</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>11</From>
-                    <To>8</To>
+                    <To>27</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>12</From>
-                    <To>28</To>
+                    <To>14</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>13</From>
-                    <To>15</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>14</From>
-                    <To>13</To>
+                    <To>12</To>
                     <Label>Source2</Label>
                   </Edge>
                   <Edge>
-                    <From>15</From>
-                    <To>11</To>
+                    <From>14</From>
+                    <To>8</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>16</From>
+                    <From>15</From>
                     <To>5</To>
                     <Label>Source2</Label>
                   </Edge>
                   <Edge>
-                    <From>17</From>
-                    <To>18</To>
+                    <From>16</From>
+                    <To>17</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>18</From>
-                    <To>21</To>
+                    <From>17</From>
+                    <To>20</To>
                     <Label>Source3</Label>
                   </Edge>
                   <Edge>
-                    <From>19</From>
-                    <To>21</To>
+                    <From>18</From>
+                    <To>20</To>
                     <Label>Source2</Label>
+                  </Edge>
+                  <Edge>
+                    <From>19</From>
+                    <To>20</To>
+                    <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>20</From>
@@ -1529,7 +1524,7 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   </Edge>
                   <Edge>
                     <From>23</From>
-                    <To>24</To>
+                    <To>15</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
@@ -1539,38 +1534,38 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   </Edge>
                   <Edge>
                     <From>25</From>
-                    <To>17</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>26</From>
-                    <To>17</To>
+                    <To>16</To>
                     <Label>Source2</Label>
                   </Edge>
                   <Edge>
-                    <From>27</From>
-                    <To>20</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>27</From>
+                    <From>26</From>
                     <To>19</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
+                    <From>26</From>
+                    <To>18</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>26</From>
+                    <To>25</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
                     <From>27</From>
-                    <To>26</To>
+                    <To>24</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>28</From>
-                    <To>25</To>
-                    <Label>Source1</Label>
+                    <To>24</To>
+                    <Label>Source2</Label>
                   </Edge>
                   <Edge>
                     <From>29</From>
-                    <To>25</To>
-                    <Label>Source2</Label>
+                    <To>33</To>
+                    <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>30</From>
@@ -1579,52 +1574,47 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   </Edge>
                   <Edge>
                     <From>31</From>
-                    <To>35</To>
+                    <To>29</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>32</From>
+                    <From>31</From>
                     <To>30</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>32</From>
-                    <To>31</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>33</From>
-                    <To>39</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>34</From>
-                    <To>12</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>35</From>
                     <To>38</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>37</From>
-                    <To>36</To>
+                    <From>33</From>
+                    <To>11</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>38</From>
-                    <To>29</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>39</From>
+                    <From>34</From>
                     <To>37</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>40</From>
-                    <To>13</To>
+                    <From>36</From>
+                    <To>35</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>37</From>
+                    <To>28</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>38</From>
+                    <To>36</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>39</From>
+                    <To>12</To>
                     <Label>Source1</Label>
                   </Edge>
                 </Edges>
@@ -1632,7 +1622,7 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="IntProperty">
-                <Value>2</Value>
+                <Value>100</Value>
               </Combinator>
             </Expression>
             <Expression xsi:type="WorkflowOutput" />
@@ -1646,7 +1636,7 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="IntProperty">
-                <Value>1</Value>
+                <Value>100</Value>
               </Combinator>
             </Expression>
             <Expression xsi:type="Combinator">
@@ -1979,11 +1969,6 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                     </Workflow>
                   </Expression>
                   <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="IntProperty">
-                      <Value>1</Value>
-                    </Combinator>
-                  </Expression>
-                  <Expression xsi:type="Combinator">
                     <Combinator xsi:type="q6:GroupCollisionsUntil" />
                   </Expression>
                   <Expression xsi:type="Combinator">
@@ -2314,13 +2299,13 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                                         <q1:X>1</q1:X>
                                         <q1:Y>1</q1:Y>
                                         <q1:Z>1</q1:Z>
-                                        <q1:W>1</q1:W>
+                                        <q1:W>0</q1:W>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="ExternalizedPropertyOfSingleCreateVector4">
                                       <MemberName>W</MemberName>
                                       <Name>W</Name>
-                                      <Value>1</Value>
+                                      <Value>0</Value>
                                     </Expression>
                                   </Nodes>
                                   <Edges>
@@ -2452,15 +2437,15 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                               <Expression xsi:type="Combinator">
                                 <Combinator xsi:type="q4:SetTransform">
                                   <q4:Position>
-                                    <q4:X>0.86882116823936739</q4:X>
-                                    <q4:Y>0.95558003089652288</q4:Y>
-                                    <q4:Z>-0.50360943690215754</q4:Z>
+                                    <q4:X>0.83101126594151808</q4:X>
+                                    <q4:Y>1.0558755736207586</q4:Y>
+                                    <q4:Z>-0.575179329021754</q4:Z>
                                   </q4:Position>
                                   <q4:Orientation>
-                                    <q4:W>0.809791624546051</q4:W>
-                                    <q4:X>0.059766001999378204</q4:X>
-                                    <q4:Y>-0.57942324876785278</q4:Y>
-                                    <q4:Z>0.070245072245597839</q4:Z>
+                                    <q4:W>0.67439764738082886</q4:W>
+                                    <q4:X>0.032478190958499908</q4:X>
+                                    <q4:Y>-0.737650990486145</q4:Y>
+                                    <q4:Z>-0.0020350546110421419</q4:Z>
                                   </q4:Orientation>
                                 </Combinator>
                               </Expression>
@@ -2496,7 +2481,7 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                               <Expression xsi:type="ExternalizedPropertyOfSingleCreateVector4">
                                 <MemberName>W</MemberName>
                                 <Name>W</Name>
-                                <Value>1</Value>
+                                <Value>0</Value>
                               </Expression>
                             </Nodes>
                             <Edges>
@@ -2837,37 +2822,42 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   </Edge>
                   <Edge>
                     <From>10</From>
-                    <To>33</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>10</From>
                     <To>32</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
+                    <From>10</From>
+                    <To>31</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
                     <From>11</From>
-                    <To>8</To>
+                    <To>13</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>12</From>
-                    <To>14</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>13</From>
-                    <To>12</To>
+                    <To>11</To>
                     <Label>Source2</Label>
                   </Edge>
                   <Edge>
-                    <From>14</From>
-                    <To>11</To>
+                    <From>13</From>
+                    <To>8</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>15</From>
-                    <To>16</To>
+                    <From>14</From>
+                    <To>15</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>14</From>
+                    <To>19</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>14</From>
+                    <To>22</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
@@ -2876,19 +2866,14 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>15</From>
-                    <To>23</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
                     <From>16</From>
-                    <To>21</To>
-                    <Label>Source1</Label>
+                    <To>5</To>
+                    <Label>Source2</Label>
                   </Edge>
                   <Edge>
                     <From>17</From>
-                    <To>5</To>
-                    <Label>Source2</Label>
+                    <To>16</To>
+                    <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>18</From>
@@ -2897,92 +2882,87 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   </Edge>
                   <Edge>
                     <From>19</From>
-                    <To>18</To>
-                    <Label>Source1</Label>
+                    <To>20</To>
+                    <Label>Source2</Label>
                   </Edge>
                   <Edge>
                     <From>20</From>
                     <To>21</To>
-                    <Label>Source2</Label>
+                    <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>21</From>
-                    <To>22</To>
+                    <To>18</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>22</From>
-                    <To>19</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>23</From>
-                    <To>29</To>
+                    <To>28</To>
                     <Label>Source2</Label>
                   </Edge>
                   <Edge>
-                    <From>24</From>
-                    <To>27</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>25</From>
-                    <To>24</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>25</From>
+                    <From>23</From>
                     <To>26</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
+                    <From>24</From>
+                    <To>23</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>24</From>
+                    <To>25</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>25</From>
+                    <To>27</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
                     <From>26</From>
-                    <To>28</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>27</From>
-                    <To>30</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>28</From>
-                    <To>30</To>
-                    <Label>Source2</Label>
-                  </Edge>
-                  <Edge>
-                    <From>29</From>
-                    <To>31</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>30</From>
                     <To>29</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>31</From>
-                    <To>21</To>
-                    <Label>Source3</Label>
+                    <From>27</From>
+                    <To>29</To>
+                    <Label>Source2</Label>
                   </Edge>
                   <Edge>
-                    <From>32</From>
-                    <To>36</To>
+                    <From>28</From>
+                    <To>30</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
-                    <From>33</From>
-                    <To>12</To>
+                    <From>29</From>
+                    <To>28</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>30</From>
+                    <To>20</To>
+                    <Label>Source3</Label>
+                  </Edge>
+                  <Edge>
+                    <From>31</From>
+                    <To>35</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>32</From>
+                    <To>11</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>34</From>
+                    <To>33</To>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
                     <From>35</From>
                     <To>34</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>36</From>
-                    <To>35</To>
                     <Label>Source1</Label>
                   </Edge>
                 </Edges>
@@ -3005,174 +2985,14 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
             <Expression xsi:type="BehaviorSubject">
               <Name>TargetSide</Name>
             </Expression>
-            <Expression xsi:type="Condition">
-              <Name>OnlyTargetHit</Name>
-              <Workflow>
-                <Nodes>
-                  <Expression xsi:type="WorkflowOutput" />
-                  <Expression xsi:type="SubscribeSubject">
-                    <Name>BothHit</Name>
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="TakeUntil" />
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="TakeLast">
-                      <Count>1</Count>
-                    </Combinator>
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="q1:UpdateFrame" />
-                  </Expression>
-                  <Expression xsi:type="Equal">
-                    <Operand xsi:type="IntProperty">
-                      <Value>0</Value>
-                    </Operand>
-                  </Expression>
-                </Nodes>
-                <Edges>
-                  <Edge>
-                    <From>1</From>
-                    <To>2</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>2</From>
-                    <To>3</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>3</From>
-                    <To>5</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>4</From>
-                    <To>2</To>
-                    <Label>Source2</Label>
-                  </Edge>
-                  <Edge>
-                    <From>5</From>
-                    <To>0</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                </Edges>
-              </Workflow>
-            </Expression>
-            <Expression xsi:type="Condition">
-              <Name>BothHit</Name>
-              <Workflow>
-                <Nodes>
-                  <Expression xsi:type="WorkflowOutput" />
-                  <Expression xsi:type="SubscribeSubject">
-                    <Name>BothHit</Name>
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="TakeUntil" />
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="TakeLast">
-                      <Count>1</Count>
-                    </Combinator>
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="q1:UpdateFrame" />
-                  </Expression>
-                  <Expression xsi:type="GreaterThan">
-                    <Operand xsi:type="IntProperty">
-                      <Value>0</Value>
-                    </Operand>
-                  </Expression>
-                </Nodes>
-                <Edges>
-                  <Edge>
-                    <From>1</From>
-                    <To>2</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>2</From>
-                    <To>3</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>3</From>
-                    <To>5</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>4</From>
-                    <To>2</To>
-                    <Label>Source2</Label>
-                  </Edge>
-                  <Edge>
-                    <From>5</From>
-                    <To>0</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                </Edges>
-              </Workflow>
-            </Expression>
-            <Expression xsi:type="Condition">
-              <Name>OnlyPenaltyHit</Name>
-              <Workflow>
-                <Nodes>
-                  <Expression xsi:type="WorkflowOutput" />
-                  <Expression xsi:type="SubscribeSubject">
-                    <Name>BothHit</Name>
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="TakeUntil" />
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="TakeLast">
-                      <Count>1</Count>
-                    </Combinator>
-                  </Expression>
-                  <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="q1:UpdateFrame" />
-                  </Expression>
-                  <Expression xsi:type="Equal">
-                    <Operand xsi:type="IntProperty">
-                      <Value>0</Value>
-                    </Operand>
-                  </Expression>
-                </Nodes>
-                <Edges>
-                  <Edge>
-                    <From>1</From>
-                    <To>2</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>2</From>
-                    <To>3</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>3</From>
-                    <To>5</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>4</From>
-                    <To>2</To>
-                    <Label>Source2</Label>
-                  </Edge>
-                  <Edge>
-                    <From>5</From>
-                    <To>0</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                </Edges>
-              </Workflow>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="Delay">
+                <DueTime>PT10S</DueTime>
+              </Combinator>
             </Expression>
             <Expression xsi:type="Combinator">
-              <Combinator xsi:type="Merge" />
-            </Expression>
-            <Expression xsi:type="Combinator">
-              <Combinator xsi:type="IntProperty">
-                <Value>3</Value>
+              <Combinator xsi:type="Delay">
+                <DueTime>PT10S</DueTime>
               </Combinator>
             </Expression>
             <Expression xsi:type="Combinator">
@@ -3220,11 +3040,6 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   </Edge>
                 </Edges>
               </Workflow>
-            </Expression>
-            <Expression xsi:type="Combinator">
-              <Combinator xsi:type="Delay">
-                <DueTime>PT0.5S</DueTime>
-              </Combinator>
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="SkipUntil" />
@@ -3295,9 +3110,6 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   </Edge>
                 </Edges>
               </Workflow>
-            </Expression>
-            <Expression xsi:type="Combinator">
-              <Combinator xsi:type="Merge" />
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="IntProperty">
@@ -3500,16 +3312,19 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                 </Edges>
               </Workflow>
             </Expression>
+            <Expression xsi:type="SubscribeSubject">
+              <Name>HmdState</Name>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="q1:Delay">
+                <q1:DueTime>PT0.005S</q1:DueTime>
+              </Combinator>
+            </Expression>
           </Nodes>
           <Edges>
             <Edge>
               <From>0</From>
               <To>1</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>0</From>
-              <To>28</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
@@ -3523,18 +3338,13 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>3</From>
-              <To>19</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
               <From>4</From>
               <To>6</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
               <From>6</From>
-              <To>21</To>
+              <To>18</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
@@ -3559,13 +3369,8 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
             </Edge>
             <Edge>
               <From>11</From>
-              <To>18</To>
+              <To>17</To>
               <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>11</From>
-              <To>19</To>
-              <Label>Source2</Label>
             </Edge>
             <Edge>
               <From>12</From>
@@ -3589,38 +3394,43 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
             </Edge>
             <Edge>
               <From>17</From>
-              <To>20</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>18</From>
               <To>4</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>19</From>
-              <To>17</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>20</From>
-              <To>6</To>
-              <Label>Source4</Label>
-            </Edge>
-            <Edge>
-              <From>21</From>
+              <From>18</From>
               <To>5</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
+              <From>19</From>
+              <To>6</To>
+              <Label>Source6</Label>
+            </Edge>
+            <Edge>
+              <From>20</From>
+              <To>30</To>
+              <Label>Source2</Label>
+            </Edge>
+            <Edge>
+              <From>21</From>
+              <To>36</To>
+              <Label>Source1</Label>
+            </Edge>
+            <Edge>
               <From>22</From>
-              <To>31</To>
-              <Label>Source3</Label>
+              <To>21</To>
+              <Label>Source2</Label>
             </Edge>
             <Edge>
               <From>23</From>
-              <To>35</To>
-              <Label>Source2</Label>
+              <To>22</To>
+              <Label>Source1</Label>
+            </Edge>
+            <Edge>
+              <From>24</From>
+              <To>21</To>
+              <Label>Source1</Label>
             </Edge>
             <Edge>
               <From>24</From>
@@ -3629,38 +3439,38 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
             </Edge>
             <Edge>
               <From>25</From>
-              <To>24</To>
+              <To>31</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>26</From>
-              <To>25</To>
-              <Label>Source2</Label>
+              <From>25</From>
+              <To>32</To>
+              <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>27</From>
+              <From>25</From>
               <To>26</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>28</From>
-              <To>25</To>
+              <From>25</From>
+              <To>34</To>
               <Label>Source1</Label>
+            </Edge>
+            <Edge>
+              <From>26</From>
+              <To>19</To>
+              <Label>Source1</Label>
+            </Edge>
+            <Edge>
+              <From>27</From>
+              <To>6</To>
+              <Label>Source4</Label>
             </Edge>
             <Edge>
               <From>28</From>
-              <To>27</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>29</From>
-              <To>36</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>29</From>
-              <To>37</To>
-              <Label>Source1</Label>
+              <To>6</To>
+              <Label>Source5</Label>
             </Edge>
             <Edge>
               <From>29</From>
@@ -3668,53 +3478,38 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>29</From>
-              <To>39</To>
+              <From>30</From>
+              <To>25</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>30</From>
-              <To>22</To>
+              <From>31</From>
+              <To>27</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
               <From>32</From>
-              <To>31</To>
+              <To>28</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
               <From>33</From>
-              <To>31</To>
-              <Label>Source2</Label>
+              <To>6</To>
+              <Label>Source7</Label>
             </Edge>
             <Edge>
               <From>34</From>
-              <To>35</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>35</From>
-              <To>29</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>36</From>
-              <To>32</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>37</From>
               <To>33</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>38</From>
-              <To>31</To>
-              <Label>Source4</Label>
+              <From>35</From>
+              <To>24</To>
+              <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>39</From>
-              <To>38</To>
+              <From>36</From>
+              <To>20</To>
               <Label>Source1</Label>
             </Edge>
           </Edges>
@@ -3733,46 +3528,7 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
         <Description />
         <Workflow>
           <Nodes>
-            <Expression xsi:type="MemberSelector">
-              <Selector>Source.DevicePose.Row3.Y</Selector>
-            </Expression>
-            <Expression xsi:type="SubscribeSubject">
-              <Name>HmdState</Name>
-            </Expression>
-            <Expression xsi:type="Condition">
-              <Name>AchieveHeadUp</Name>
-              <Workflow>
-                <Nodes>
-                  <Expression xsi:type="WorkflowInput">
-                    <Name>Source1</Name>
-                  </Expression>
-                  <Expression xsi:type="WorkflowOutput" />
-                  <Expression xsi:type="GreaterThan">
-                    <Operand xsi:type="FloatProperty">
-                      <Value>1.5</Value>
-                    </Operand>
-                  </Expression>
-                </Nodes>
-                <Edges>
-                  <Edge>
-                    <From>0</From>
-                    <To>2</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                  <Edge>
-                    <From>2</From>
-                    <To>1</To>
-                    <Label>Source1</Label>
-                  </Edge>
-                </Edges>
-              </Workflow>
-            </Expression>
             <Expression xsi:type="WorkflowOutput" />
-            <Expression xsi:type="Combinator">
-              <Combinator xsi:type="Take">
-                <Count>1</Count>
-              </Combinator>
-            </Expression>
             <Expression xsi:type="SelectMany">
               <Name>CreateFixationBoard</Name>
               <Workflow>
@@ -4347,15 +4103,15 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="q4:SetTransform">
                       <q4:Position>
-                        <q4:X>0.31041765213012695</q4:X>
-                        <q4:Y>0.76711070537567139</q4:Y>
-                        <q4:Z>1.6539126634597778</q4:Z>
+                        <q4:X>0.2983013391494751</q4:X>
+                        <q4:Y>0.761608362197876</q4:Y>
+                        <q4:Z>1.6761372089385986</q4:Z>
                       </q4:Position>
                       <q4:Orientation>
-                        <q4:W>0.0045365123078227043</q4:W>
-                        <q4:X>-0.0080315619707107544</q4:X>
-                        <q4:Y>0.995948076248169</q4:Y>
-                        <q4:Z>-0.089455164968967438</q4:Z>
+                        <q4:W>0.028426740318536758</q4:W>
+                        <q4:X>0.010434896685183048</q4:X>
+                        <q4:Y>-0.99536806344985962</q4:Y>
+                        <q4:Z>0.091244027018547058</q4:Z>
                       </q4:Orientation>
                     </Combinator>
                   </Expression>
@@ -4502,7 +4258,7 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                           <Combinator xsi:type="q1:CreateScale">
                             <q1:X>0.1</q1:X>
                             <q1:Y>0.1</q1:Y>
-                            <q1:Z>0.2</q1:Z>
+                            <q1:Z>2.3</q1:Z>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="Combinator">
@@ -4673,7 +4429,7 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                       <q5:Position xsi:nil="true" />
                       <q5:Orientation xsi:nil="true" />
                       <q5:Radius>0.1</q5:Radius>
-                      <q5:Length>0.2</q5:Length>
+                      <q5:Length>2.4000000000000004</q5:Length>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="q3:ExpressionTransform">
@@ -4796,43 +4552,28 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
           </Nodes>
           <Edges>
             <Edge>
-              <From>0</From>
-              <To>2</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
               <From>1</From>
               <To>0</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>2</From>
-              <To>4</To>
+              <From>3</From>
+              <To>2</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>5</From>
+              <From>4</From>
               <To>3</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>7</From>
-              <To>6</To>
+              <From>5</From>
+              <To>1</To>
               <Label>Source1</Label>
             </Edge>
             <Edge>
-              <From>8</From>
+              <From>6</From>
               <To>7</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>9</From>
-              <To>5</To>
-              <Label>Source1</Label>
-            </Edge>
-            <Edge>
-              <From>10</From>
-              <To>11</To>
               <Label>Source1</Label>
             </Edge>
           </Edges>
@@ -5992,10 +5733,11 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
     <Type>Bonsai.Reactive.Amb, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>GazeVR.RandomGenerator, GazeVR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>GazeVR.RandomBoolean, GazeVR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Type>
+    <Type>Bonsai.Reactive.Delay, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Expressions.LessThanBuilder, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Dsp.Abs, Bonsai.Dsp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
-    <Type>Bonsai.Reactive.Delay, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Expressions.BitwiseAndBuilder, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
+    <Type>Bonsai.Shaders.Delay, Bonsai.Shaders, Version=0.18.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Physics.CreateBoxMass, Bonsai.Physics, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Physics.Collision.CreateBox, Bonsai.Physics, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Expressions.ExternalizedProperty`2[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Bonsai.Physics.Collision.CreateCylinder, Bonsai.Physics, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]], Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
