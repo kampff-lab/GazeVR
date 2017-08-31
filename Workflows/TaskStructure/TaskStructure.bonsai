@@ -91,7 +91,7 @@ LeftProjectionMatrix as ProjectionMatrix)</q3:Expression>
         <Combinator xsi:type="q4:CreateWorld">
           <q4:Gravity>
             <q4:X>0</q4:X>
-            <q4:Y>-9.81</q4:Y>
+            <q4:Y>0</q4:Y>
             <q4:Z>0</q4:Z>
           </q4:Gravity>
           <q4:StepSize>0.0111</q4:StepSize>
@@ -372,15 +372,15 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="q4:SetTransform">
                       <q4:Position>
-                        <q4:X>0.2806621789932251</q4:X>
-                        <q4:Y>0.78460657596588135</q4:Y>
-                        <q4:Z>1.34872305393219</q4:Z>
+                        <q4:X>0.26544690132141113</q4:X>
+                        <q4:Y>0.74866211414337158</q4:Y>
+                        <q4:Z>1.3687381744384766</q4:Z>
                       </q4:Position>
                       <q4:Orientation>
-                        <q4:W>0.03643634170293808</q4:W>
-                        <q4:X>-0.0033073388040065765</q4:X>
-                        <q4:Y>-0.9959876537322998</q4:Y>
-                        <q4:Z>0.081671155989170074</q4:Z>
+                        <q4:W>0.48433366417884827</q4:W>
+                        <q4:X>0.028275581076741219</q4:X>
+                        <q4:Y>0.87177270650863647</q4:Y>
+                        <q4:Z>-0.068072877824306488</q4:Z>
                       </q4:Orientation>
                     </Combinator>
                   </Expression>
@@ -646,9 +646,9 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="q4:CreateBody">
                       <q4:Position>
-                        <q4:X>0.875516307947932</q4:X>
-                        <q4:Y>0.6454079712952524</q4:Y>
-                        <q4:Z>0.18775650914188313</q4:Z>
+                        <q4:X>0.69777010786243254</q4:X>
+                        <q4:Y>1.2198186894971033</q4:Y>
+                        <q4:Z>0.78442905646955086</q4:Z>
                       </q4:Position>
                       <q4:Orientation>
                         <q4:W>1</q4:W>
@@ -829,12 +829,12 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                     <Combinator xsi:type="q6:RandomPosition">
                       <q6:Minimum>
                         <q6:X>0</q6:X>
-                        <q6:Y>0</q6:Y>
+                        <q6:Y>1</q6:Y>
                         <q6:Z>0</q6:Z>
                       </q6:Minimum>
                       <q6:Maximum>
                         <q6:X>1</q6:X>
-                        <q6:Y>1</q6:Y>
+                        <q6:Y>2</q6:Y>
                         <q6:Z>1</q6:Z>
                       </q6:Maximum>
                     </Combinator>
@@ -846,6 +846,34 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                     <Combinator xsi:type="TakeLast">
                       <Count>1</Count>
                     </Combinator>
+                  </Expression>
+                  <Expression xsi:type="Combinator">
+                    <Combinator xsi:type="q6:RandomBoolean" />
+                  </Expression>
+                  <Expression xsi:type="Condition">
+                    <Workflow>
+                      <Nodes>
+                        <Expression xsi:type="WorkflowInput">
+                          <Name>Source1</Name>
+                        </Expression>
+                        <Expression xsi:type="WorkflowOutput" />
+                      </Nodes>
+                      <Edges>
+                        <Edge>
+                          <From>0</From>
+                          <To>1</To>
+                          <Label>Source1</Label>
+                        </Edge>
+                      </Edges>
+                    </Workflow>
+                  </Expression>
+                  <Expression xsi:type="Combinator">
+                    <Combinator xsi:type="q6:TimestampEvent">
+                      <q6:Value>gotabool</q6:Value>
+                    </Combinator>
+                  </Expression>
+                  <Expression xsi:type="MulticastSubject">
+                    <Name>Events</Name>
                   </Expression>
                 </Nodes>
                 <Edges>
@@ -950,8 +978,28 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
                     <Label>Source1</Label>
                   </Edge>
                   <Edge>
+                    <From>19</From>
+                    <To>21</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
                     <From>20</From>
                     <To>6</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>21</From>
+                    <To>22</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>22</From>
+                    <To>23</To>
+                    <Label>Source1</Label>
+                  </Edge>
+                  <Edge>
+                    <From>23</From>
+                    <To>24</To>
                     <Label>Source1</Label>
                   </Edge>
                 </Edges>
@@ -1141,7 +1189,7 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="RepeatCount">
-          <Count>4</Count>
+          <Count>100</Count>
         </Combinator>
       </Expression>
       <Expression xsi:type="ReplaySubject">
@@ -1562,9 +1610,10 @@ it.ExtractRotation(false) as Orientation)</q3:Expression>
     <Type>Bonsai.Expressions.ExternalizedProperty`2[[Ode.Net.Vector3, Ode.Net, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null],[Bonsai.Physics.CreateBody, Bonsai.Physics, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]], Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>GazeVR.RandomPosition, GazeVR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Reactive.TakeLast, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
+    <Type>GazeVR.RandomBoolean, GazeVR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Type>
+    <Type>GazeVR.TimestampEvent, GazeVR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Reactive.Amb, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Expressions.BooleanProperty, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
-    <Type>GazeVR.TimestampEvent, GazeVR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Expressions.GreaterThanBuilder, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.Expressions.FloatProperty, Bonsai.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
     <Type>Bonsai.IO.CsvWriter, Bonsai.System, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</Type>
